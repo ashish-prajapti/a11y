@@ -1,4 +1,4 @@
-// import React from "react";
+import React from "react";
 
 export default function LandmarkExamples() {
     return (
@@ -62,7 +62,7 @@ function ValidLandmarkExample() {
                     </p>
                 </section>
                 <aside
-                    // role="complementary"
+                    role="complementary"
                     className="w-full md:w-1/3 bg-yellow-100 p-3 rounded"
                 >
                     <h3 className="text-xl font-semibold text-yellow-800">

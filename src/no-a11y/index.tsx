@@ -96,8 +96,9 @@ function InaccessibleImageExample() {
             </p>
             <hr />
             <img
-                // src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=600"
                 className="rounded-md w-full"
+                alt='test'
                 // No alt attribute! This is the violation.
             />
         </div>
@@ -280,7 +281,7 @@ function AccessibleLinkTextExample() {
             </p>
             <div className="p-4 rounded-md bg-gray-700">
                 <p className="text-gray-300">
-                    <a href="#" className="text-green-400 underline">
+                    <a href="https://test.com" className="text-green-400 underline">
                         Read more about our new project
                     </a>
                     .
